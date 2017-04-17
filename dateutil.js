@@ -18,7 +18,30 @@
   var YEAR_SIZE   = DAY_SIZE * 365.2425;  // average year size
 
   var _toString = Object.prototype.toString;
-  var _gl = __global__.lang = { 'en': {} };
+  var _gl = __global__.lang = {
+    'en': {},
+    'zh': {
+      'January': '一月',
+      'February': '二月',
+      'March': '三月',
+      'April': '四月',
+      'May': '五月',
+      'June': '六月',
+      'July': '七月',
+      'August': '八月',
+      'September': '九月',
+      'October': '十月',
+      'November': '十一月',
+      'December': '十二月',
+      'Sunday': '星期日',
+      'Monday': '星期一',
+      'Tuesday': '星期二',
+      'Wednesday': '星期三',
+      'Thursday' :'星期四',
+      'Friday': '星期五',
+      'Saturday': '星期六'
+    }
+  };
   var _m = 'January February March April May June July August September October November December'.split(' ');
   var _d = 'Sunday Monday Tuesday Wednesday Thursday Friday Saturday'.split(' ');
 
